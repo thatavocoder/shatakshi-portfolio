@@ -1,4 +1,3 @@
-import React from 'react';
 import { HiOutlineMail, HiOutlineGlobeAlt } from 'react-icons/hi';
 import { FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import './Contact.css';

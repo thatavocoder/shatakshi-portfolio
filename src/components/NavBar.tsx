@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState, type MouseEvent } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './NavBar.css';
 
@@ -41,14 +41,14 @@ const NavBar = () => {
     }
   };
 
-  const handleHomeClick = (e: React.MouseEvent) => {
+  const handleHomeClick = (e: MouseEvent) => {
     if (location.pathname === '/') {
       e.preventDefault();
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   };
 
-  const handleSectionClick = (e: React.MouseEvent, sectionId: string) => {
+  const handleSectionClick = (e: MouseEvent, sectionId: string) => {
     e.preventDefault();
     if (location.pathname === '/') {
       scrollToSection(sectionId);
