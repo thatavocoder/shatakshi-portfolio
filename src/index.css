@@ -29,6 +29,7 @@ button, .cta-button, .read-more-btn, .view-all-btn,
 a, .nav-links a, .nav-links li,
 .blog-card, .fact-item, .interest-tag, .fun-facts, .skills-interests, .quote-section,
 .profile-photo,
+.contact-method, .method-link, .social-link,
 .floating-elements .element, .floating-word {
   cursor: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23ffd93d' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M12 19l7-7 3 3-7 7-3-3z'/><path d='M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z'/><path d='M2 2l7.586 7.586'/><circle cx='11' cy='11' r='2' fill='%23ff6b6b'/></svg>") 2 2, pointer !important;
 }
